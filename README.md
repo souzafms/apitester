@@ -18,7 +18,8 @@ Estrutura da aplicação
 	a. IP do servidor
 	b. usuário do servidor
 	c: senha do servidor
-2. Com as informações acima, autenticar a aplicação no servidor e obter a chave da API
+2. Validar IP e é um IP válido
+3. Com as informações acima, autenticar a aplicação no servidor e obter a chave da API
 	a. retornar ao usuário "CONECTADO" caso tenha sucesso
 	b. "FALHA NA CONEXÃO" caso não tenha tido sucesso e solicitar os dados novamente
-3. Caso CONECTADO, listar as possíveis requisições
+4. Caso CONECTADO, listar as possíveis requisições
