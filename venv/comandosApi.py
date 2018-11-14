@@ -19,7 +19,7 @@ class ComandosApi:
 			return chave
 		except:
 			erro = "NÃO CONECTADO"
-			return print(erro)
+			return print(erro), erro
 
 #A função grupos_de_veiculos obtem uma lista com todos os grupos de veículos cadastrados.
 #http:///api/v1/basic/groups?
