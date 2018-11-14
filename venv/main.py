@@ -5,7 +5,7 @@ import comandosApi
 ##### O proximo bloco solicita ao usuário o IP do servidor e verifica se é um IP válido
 IP = 0
 while IP == 0:
-	IP_servidor = "192.168.5.5" #input("Digite o IP do servidor (ex 192.168.0.1): ")
+	IP_servidor = input("Digite o IP do servidor (ex 192.168.0.1): ") #"192.168.5.5"
 	IP = 1
 	try:
 		valida_ip = ipaddress.ip_address(IP_servidor)
