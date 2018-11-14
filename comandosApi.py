@@ -17,9 +17,9 @@ class ComandosApi:
 		data = autenticacao.json()
 		chave = data['data']['key']
 		return chave
-#		except:
-#			erro = "NÃO CONECTADO"
-#			return print(erro)
-#
-#	def grupoVeiculosInfo (self, IP_servidor, chaveServidor):
-#		URL = "http://" + str(IP_servidor) + ":12056/api/v1/basic/groups?" + str(chaveServidor)
+		except:
+			erro = "NÃO CONECTADO"
+			return print(erro)
+
+	def grupoVeiculosInfo (self, IP_servidor, chaveServidor):
+		URL = "http://" + str(IP_servidor) + ":12056/api/v1/basic/groups?" + str(chaveServidor)
